@@ -1,0 +1,636 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b10c594bd1add046aa03a7ae3af69fb, type: 3}
+  m_Name: list_items
+  m_EditorClassIdentifier: 
+  list:
+  - name: "\u5C0F\u7D0B\u30A2\u30EB\u30D0\u30E0\u62E1\u5F351\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u5C0F\u7D0B\u30A2\u30EB\u30D0\u30E0\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+4\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 100
+    durability: 0
+    clearStageId: -1
+    needLv: 3
+    buyOnce: 1
+    important: 1
+  - name: "\u5C0F\u7D0B\u30A2\u30EB\u30D0\u30E0\u62E1\u5F352\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u5C0F\u7D0B\u30A2\u30EB\u30D0\u30E0\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+3\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 200
+    durability: 0
+    clearStageId: -1
+    needLv: 7
+    buyOnce: 1
+    important: 1
+  - name: "\u5C0F\u7D0B\u30A2\u30EB\u30D0\u30E0\u62E1\u5F353\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u5C0F\u7D0B\u30A2\u30EB\u30D0\u30E0\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+7\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 300
+    durability: 0
+    clearStageId: -1
+    needLv: 15
+    buyOnce: 1
+    important: 1
+  - name: "\u5C0F\u7D0B\u30A2\u30EB\u30D0\u30E0\u62E1\u5F354\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u5C0F\u7D0B\u30A2\u30EB\u30D0\u30E0\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+5\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 400
+    durability: 0
+    clearStageId: -1
+    needLv: 22
+    buyOnce: 1
+    important: 1
+  - name: "\u5C0F\u7D0B\u30A2\u30EB\u30D0\u30E0\u62E1\u5F355\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u5C0F\u7D0B\u30A2\u30EB\u30D0\u30E0\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+5\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 500
+    durability: 0
+    clearStageId: -1
+    needLv: 30
+    buyOnce: 1
+    important: 1
+  - name: "\u5C0F\u7D0B\u30A2\u30EB\u30D0\u30E0\u62E1\u5F356\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u5C0F\u7D0B\u30A2\u30EB\u30D0\u30E0\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+5\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 600
+    durability: 0
+    clearStageId: -1
+    needLv: 40
+    buyOnce: 1
+    important: 1
+  - name: "\u578B\u7D19\u30A2\u30EB\u30D0\u30E0\u62E1\u5F351\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u578B\u7D19\u30A2\u30EB\u30D0\u30E0\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+7\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 100
+    durability: 0
+    clearStageId: -1
+    needLv: 4
+    buyOnce: 1
+    important: 1
+  - name: "\u578B\u7D19\u30A2\u30EB\u30D0\u30E0\u62E1\u5F352\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u578B\u7D19\u30A2\u30EB\u30D0\u30E0\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+5\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 200
+    durability: 0
+    clearStageId: -1
+    needLv: 9
+    buyOnce: 1
+    important: 1
+  - name: "\u578B\u7D19\u30A2\u30EB\u30D0\u30E0\u62E1\u5F353\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u578B\u7D19\u30A2\u30EB\u30D0\u30E0\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+5\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 300
+    durability: 0
+    clearStageId: -1
+    needLv: 13
+    buyOnce: 1
+    important: 1
+  - name: "\u578B\u7D19\u30A2\u30EB\u30D0\u30E0\u62E1\u5F354\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u578B\u7D19\u30A2\u30EB\u30D0\u30E0\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+5\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 400
+    durability: 0
+    clearStageId: -1
+    needLv: 25
+    buyOnce: 1
+    important: 1
+  - name: "\u578B\u7D19\u30A2\u30EB\u30D0\u30E0\u62E1\u5F355\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u578B\u7D19\u30A2\u30EB\u30D0\u30E0\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+5\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 500
+    durability: 0
+    clearStageId: -1
+    needLv: 33
+    buyOnce: 1
+    important: 1
+  - name: "\u578B\u7D19\u30A2\u30EB\u30D0\u30E0\u62E1\u5F356\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u578B\u7D19\u30A2\u30EB\u30D0\u30E0\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+5\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 600
+    durability: 0
+    clearStageId: -1
+    needLv: 45
+    buyOnce: 1
+    important: 1
+  - name: "\u3072\u307F\u3064\u8272\u30EC\u30B7\u30D4\u62E1\u5F351\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u3072\u307F\u3064\u8272\u30EC\u30B7\u30D4\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+4\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 100
+    durability: 0
+    clearStageId: -1
+    needLv: 3
+    buyOnce: 1
+    important: 1
+  - name: "\u3072\u307F\u3064\u8272\u30EC\u30B7\u30D4\u62E1\u5F352\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u3072\u307F\u3064\u8272\u30EC\u30B7\u30D4\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+5\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 200
+    durability: 0
+    clearStageId: -1
+    needLv: 7
+    buyOnce: 1
+    important: 1
+  - name: "\u3072\u307F\u3064\u8272\u30EC\u30B7\u30D4\u62E1\u5F353\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u3072\u307F\u3064\u8272\u30EC\u30B7\u30D4\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+5\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 300
+    durability: 0
+    clearStageId: -1
+    needLv: 15
+    buyOnce: 1
+    important: 1
+  - name: "\u3072\u307F\u3064\u8272\u30EC\u30B7\u30D4\u62E1\u5F354\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u3072\u307F\u3064\u8272\u30EC\u30B7\u30D4\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+5\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 400
+    durability: 0
+    clearStageId: -1
+    needLv: 22
+    buyOnce: 1
+    important: 1
+  - name: "\u3072\u307F\u3064\u8272\u30EC\u30B7\u30D4\u62E1\u5F355\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u3072\u307F\u3064\u8272\u30EC\u30B7\u30D4\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+5\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 500
+    durability: 0
+    clearStageId: -1
+    needLv: 30
+    buyOnce: 1
+    important: 1
+  - name: "\u3072\u307F\u3064\u8272\u30EC\u30B7\u30D4\u62E1\u5F356\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u3072\u307F\u3064\u8272\u30EC\u30B7\u30D4\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+5\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 600
+    durability: 0
+    clearStageId: -1
+    needLv: 40
+    buyOnce: 1
+    important: 1
+  - name: "\u4E2D\u304F\u3089\u3044\u306E\u677F\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u77ED\uFF5E\u4E2D\u306E\u9577\u3055\u306E\u751F\u5730\u3092\u6271\u3048\u308B\u3088\u3046\u306B\u306A\u308B\uFF08\u4EEE\uFF09"
+    price: 5000
+    durability: 0
+    clearStageId: -1
+    needLv: 10
+    buyOnce: 1
+    important: 1
+  - name: "\u9577\u3044\u677F\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u77ED\uFF5E\u9577\u306E\u9577\u3055\u306E\u751F\u5730\u3092\u6271\u3048\u308B\u3088\u3046\u306B\u306A\u308B\uFF08\u4EEE\uFF09"
+    price: 10000
+    durability: 0
+    clearStageId: -1
+    needLv: 20
+    buyOnce: 1
+    important: 1
+  - name: "\u3075\u3057\u304E\u306A\u304A\u304C\u304F\u305A"
+    shopKind: 3
+    explain: "\u5C0F\u7D0B\u5236\u4F5C\u306B\u304A\u3051\u308B\u5DE5\u7A0B\u30E9\u30F3\u30AFB\u304C\u4EE5\u4E0B\u306E\u3082\u306E\u306E\u3046\u3061\u3001\n\u4EFB\u610F\u306E\u5DE5\u7A0B\u30E9\u30F3\u30AF\u30921\u3064\u4E0A\u3052\u308B\uFF08\u4EEE\uFF09"
+    price: 1200
+    durability: 0
+    clearStageId: -1
+    needLv: 5
+    buyOnce: 0
+    important: 0
+  - name: "\u5009\u5EAB\u62E1\u5F351\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u5009\u5EAB\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+3\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 100
+    durability: 0
+    clearStageId: -1
+    needLv: 4
+    buyOnce: 1
+    important: 1
+  - name: "\u5009\u5EAB\u62E1\u5F352\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u5009\u5EAB\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+4\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 200
+    durability: 0
+    clearStageId: -1
+    needLv: 9
+    buyOnce: 1
+    important: 1
+  - name: "\u5009\u5EAB\u62E1\u5F353\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u5009\u5EAB\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+4\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 300
+    durability: 0
+    clearStageId: -1
+    needLv: 13
+    buyOnce: 1
+    important: 1
+  - name: "\u5009\u5EAB\u62E1\u5F354\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u5009\u5EAB\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+6\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 400
+    durability: 0
+    clearStageId: -1
+    needLv: 25
+    buyOnce: 1
+    important: 1
+  - name: "\u5009\u5EAB\u62E1\u5F355\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u5009\u5EAB\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+5\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 500
+    durability: 0
+    clearStageId: -1
+    needLv: 33
+    buyOnce: 1
+    important: 1
+  - name: "\u5009\u5EAB\u62E1\u5F356\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\u5009\u5EAB\u306E\u6700\u5927\u4FDD\u5B58\u6570\u3092\u3010+5\u3011\u3059\u308B\uFF08\u4EEE\uFF09"
+    price: 600
+    durability: 0
+    clearStageId: -1
+    needLv: 45
+    buyOnce: 1
+    important: 1
+  - name: "\u62E1\u5F35\u30A2\u30A4\u30C6\u30E027\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u62E1\u5F35\u30A2\u30A4\u30C6\u30E028\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u62E1\u5F35\u30A2\u30A4\u30C6\u30E029\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u62E1\u5F35\u30A2\u30A4\u30C6\u30E030\uFF08\u4EEE\uFF09"
+    shopKind: 3
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u77ED\u751F\u5730\uFF08\u767D\uFF09"
+    shopKind: 0
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 3450
+    durability: 0
+    clearStageId: -1
+    needLv: 1
+    buyOnce: 0
+    important: 0
+  - name: "\u4E2D\u751F\u5730\uFF08\u767D\uFF09"
+    shopKind: 0
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 9860
+    durability: 0
+    clearStageId: -1
+    needLv: 10
+    buyOnce: 0
+    important: 0
+  - name: "\u9577\u751F\u5730\uFF08\u767D\uFF09"
+    shopKind: 0
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 18600
+    durability: 0
+    clearStageId: -1
+    needLv: 20
+    buyOnce: 0
+    important: 0
+  - name: "\u751F\u5730\u30A2\u30A4\u30C6\u30E034\uFF08\u4EEE\uFF09"
+    shopKind: 0
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u751F\u5730\u30A2\u30A4\u30C6\u30E035\uFF08\u4EEE\uFF09"
+    shopKind: 0
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u751F\u5730\u30A2\u30A4\u30C6\u30E036\uFF08\u4EEE\uFF09"
+    shopKind: 0
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u751F\u5730\u30A2\u30A4\u30C6\u30E037\uFF08\u4EEE\uFF09"
+    shopKind: 0
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u751F\u5730\u30A2\u30A4\u30C6\u30E038\uFF08\u4EEE\uFF09"
+    shopKind: 0
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u751F\u5730\u30A2\u30A4\u30C6\u30E039\uFF08\u4EEE\uFF09"
+    shopKind: 0
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u751F\u5730\u30A2\u30A4\u30C6\u30E040\uFF08\u4EEE\uFF09"
+    shopKind: 0
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u751F\u5730\u30A2\u30A4\u30C6\u30E041\uFF08\u4EEE\uFF09"
+    shopKind: 0
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u751F\u5730\u30A2\u30A4\u30C6\u30E042\uFF08\u4EEE\uFF09"
+    shopKind: 0
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u67D3\u6599A\u306E\u6A29\u5229\uFF08\u4EEE\uFF09"
+    shopKind: 2
+    explain: "\uFF08\u3010\u30D9\u30FC\u30B7\u30C3\u30AF\u67D3\u6599\u3011\u521D\u671F\u304B\u3089\u3042\u308B\u67D3\u6599\u3002\uFF09\nC\uFF0890%)\u3068M(10%)\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 1
+    buyOnce: 0
+    important: 1
+  - name: "\u67D3\u6599B\u306E\u6A29\u5229\uFF08\u4EEE\uFF09"
+    shopKind: 2
+    explain: "\uFF08\u3010\u30D9\u30FC\u30B7\u30C3\u30AF\u67D3\u6599\u3011\u521D\u671F\u304B\u3089\u3042\u308B\u67D3\u6599\u3002\uFF09\nM\uFF0890%)\u3068Y(10%)\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 1
+    buyOnce: 0
+    important: 1
+  - name: "\u67D3\u6599C\u306E\u6A29\u5229\uFF08\u4EEE\uFF09"
+    shopKind: 2
+    explain: "\uFF08\u3010\u30D9\u30FC\u30B7\u30C3\u30AF\u67D3\u6599\u3011\u521D\u671F\u304B\u3089\u3042\u308B\u67D3\u6599\u3002\uFF09\nY\uFF0890%)\u3068C(10%)\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 1
+    buyOnce: 0
+    important: 1
+  - name: "\u67D3\u6599D\u306E\u6A29\u5229\uFF08\u4EEE\uFF09"
+    shopKind: 2
+    explain: "\uFF08\u3010\u8FFD\u52A0\u67D3\u6599\u3011\u30B2\u30FC\u30E0\u5185\u901A\u8CA8\u3067\u7121\u9650\u4F7F\u7528\u6A29\u3092\u5F97\u308B\u5F62\u3002\uFF09\nC\uFF0890%)\u3068Y(10%)\uFF08\u4EEE\uFF09"
+    price: 15000
+    durability: 0
+    clearStageId: -1
+    needLv: 5
+    buyOnce: 0
+    important: 0
+  - name: "\u67D3\u6599E\u306E\u6A29\u5229\uFF08\u4EEE\uFF09"
+    shopKind: 2
+    explain: "\uFF08\u3010\u8FFD\u52A0\u67D3\u6599\u3011\u30B2\u30FC\u30E0\u5185\u901A\u8CA8\u3067\u7121\u9650\u4F7F\u7528\u6A29\u3092\u5F97\u308B\u5F62\u3002\uFF09\nM\uFF0890%)\u3068C(10%)\uFF08\u4EEE\uFF09"
+    price: 15000
+    durability: 0
+    clearStageId: -1
+    needLv: 5
+    buyOnce: 0
+    important: 0
+  - name: "\u67D3\u6599F\u306E\u6A29\u5229\uFF08\u4EEE\uFF09"
+    shopKind: 2
+    explain: "\uFF08\u3010\u8FFD\u52A0\u67D3\u6599\u3011\u30B2\u30FC\u30E0\u5185\u901A\u8CA8\u3067\u7121\u9650\u4F7F\u7528\u6A29\u3092\u5F97\u308B\u5F62\u3002\uFF09\nY\uFF0890%)\u3068M(10%)\uFF08\u4EEE\uFF09"
+    price: 15000
+    durability: 0
+    clearStageId: -1
+    needLv: 5
+    buyOnce: 0
+    important: 0
+  - name: "\u67D3\u6599G\uFF08\u4EEE\uFF09"
+    shopKind: 2
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u67D3\u6599H\uFF08\u4EEE\uFF09"
+    shopKind: 2
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u67D3\u6599I\uFF08\u4EEE\uFF09"
+    shopKind: 2
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u67D3\u6599J\uFF08\u4EEE\uFF09"
+    shopKind: 2
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u67D3\u6599K\uFF08\u4EEE\uFF09"
+    shopKind: 2
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u67D3\u6599L\uFF08\u4EEE\uFF09"
+    shopKind: 2
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u67D3\u6599M\uFF08\u4EEE\uFF09"
+    shopKind: 2
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u67D3\u6599N\uFF08\u4EEE\uFF09"
+    shopKind: 2
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u67D3\u6599O\uFF08\u4EEE\uFF09"
+    shopKind: 2
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u67D3\u6599P\uFF08\u4EEE\uFF09"
+    shopKind: 2
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 0
+  - name: "\u4E0A\u306C\u308A\u306E\u3059\u309D\u3081\uFF08\u4EEE\uFF09"
+    shopKind: 5
+    explain: "\u4E0A\u306C\u308A\u3067\u304D\u308B\u3088\u3046\u306B\u306A\u308B\u3002\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 1
+  - name: "\u4E0A\u306C\u308A\u306E\u6975\u610F\uFF08\u4EEE\uFF09"
+    shopKind: 5
+    explain: "\u3055\u3089\u306B\u4E0A\u306C\u308A\u3067\u304D\u308B\u3088\u3046\u306B\u306A\u308B\u3002\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 1
+  - name: "\u3060\u3044\u3058\u306A\u3082\u306E61\uFF08\u4EEE\uFF09"
+    shopKind: 5
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 1
+  - name: "\u3060\u3044\u3058\u306A\u3082\u306E62\uFF08\u4EEE\uFF09"
+    shopKind: 5
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 1
+  - name: "\u3060\u3044\u3058\u306A\u3082\u306E63\uFF08\u4EEE\uFF09"
+    shopKind: 5
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 1
+  - name: "\u3060\u3044\u3058\u306A\u3082\u306E64\uFF08\u4EEE\uFF09"
+    shopKind: 5
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 1
+  - name: "\u3060\u3044\u3058\u306A\u3082\u306E65\uFF08\u4EEE\uFF09"
+    shopKind: 5
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 1
+  - name: "\u3060\u3044\u3058\u306A\u3082\u306E66\uFF08\u4EEE\uFF09"
+    shopKind: 5
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 1
+  - name: "\u3060\u3044\u3058\u306A\u3082\u306E67\uFF08\u4EEE\uFF09"
+    shopKind: 5
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 1
+  - name: "\u3060\u3044\u3058\u306A\u3082\u306E68\uFF08\u4EEE\uFF09"
+    shopKind: 5
+    explain: "\uFF08\u4EEE\uFF09"
+    price: 0
+    durability: 0
+    clearStageId: -1
+    needLv: 0
+    buyOnce: 0
+    important: 1

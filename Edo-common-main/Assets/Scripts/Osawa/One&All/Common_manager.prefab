@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4643833678731794974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 360970343537686119}
+  - component: {fileID: 4364356174033878647}
+  m_Layer: 0
+  m_Name: Common_manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &360970343537686119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4643833678731794974}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4364356174033878647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4643833678731794974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2796c47822510de419d535a9ad4bf697, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _base: {fileID: 0}
+  komon: {fileID: 0}
+  katagami: {fileID: 0}
+  Testsome: {fileID: 0}
+  Colorselect_k: {fileID: 0}
+  Gamisome: {fileID: 0}
+  canvasRect: {fileID: 0}
+  obj_album_pattern: {fileID: 2295867232972659407, guid: 95747eb6202d3be47a8de9eb6ff66905, type: 3}
+  obj_album_color: {fileID: 3036979216574544062, guid: 5bf57786c6db06d4a88090ead05891bf, type: 3}
+  paten_C: {fileID: 11400000, guid: 6b44365bf29faef4eae9467501762fef, type: 2}
+  list_komonCreationValiable: {fileID: 11400000, guid: c0d3322a44955a544877ba65a06a9ee8, type: 2}
+  videoList: {fileID: 11400000, guid: 8ba075c85a17a0a42a2e7b4161f4a147, type: 2}
+  start_kc: 0
+  color_k: {r: 0, g: 0, b: 0, a: 0}
+  idCheck: 2

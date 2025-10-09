@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7820b11fcfe9c9941931e123fb8635bc, type: 3}
+  m_Name: list_rankComment
+  m_EditorClassIdentifier: 
+  comment_s:
+  - comment: "\u30A4\u30A4\u30AB\u30F3\u30B8\u3067\u3059\uFF01"
+  - comment: "\u30E9\u30F3\u30AFS\u30B3\u30E1\u30F3\u30C8\u305D\u306E2"
+  - comment: "\u30E9\u30F3\u30AFS\u30B3\u30E1\u30F3\u30C8\u305D\u306E3"
+  - comment: "\u30E9\u30F3\u30AFS\u30B3\u30E1\u30F3\u30C8\u305D\u306E4"
+  - comment: "\u30E9\u30F3\u30AFS\u30B3\u30E1\u30F3\u30C8\u305D\u306E5"
+  comment_a:
+  - comment: "\u306A\u304B\u306A\u304B\u30A4\u30A4\u3067\u3059\u306D\uFF5E"
+  - comment: "\u30E9\u30F3\u30AFA\u30B3\u30E1\u30F3\u30C8\u305D\u306E2"
+  - comment: "\u30E9\u30F3\u30AFA\u30B3\u30E1\u30F3\u30C8\u305D\u306E3"
+  - comment: "\u30E9\u30F3\u30AFA\u30B3\u30E1\u30F3\u30C8\u305D\u306E4"
+  - comment: "\u30E9\u30F3\u30AFA\u30B3\u30E1\u30F3\u30C8\u305D\u306E5"
+  comment_b:
+  - comment: "\u307E\u3042\u307E\u3042\u826F\u3055\u305D\u3046\u3067\u3059"
+  - comment: "\u30E9\u30F3\u30AFB\u30B3\u30E1\u30F3\u30C8\u305D\u306E2"
+  - comment: "\u30E9\u30F3\u30AFB\u30B3\u30E1\u30F3\u30C8\u305D\u306E3"
+  - comment: "\u30E9\u30F3\u30AFB\u30B3\u30E1\u30F3\u30C8\u305D\u306E4"
+  - comment: "\u30E9\u30F3\u30AFB\u30B3\u30E1\u30F3\u30C8\u305D\u306E5"
+  comment_c:
+  - comment: "\u3082\u3063\u3068\u9811\u5F35\u308C\u305D\u3046\u306A\u6C17\u304C\u3057\u307E\u3059\u2026\u2026"
+  - comment: "\u30E9\u30F3\u30AFC\u30B3\u30E1\u30F3\u30C8\u305D\u306E2"
+  - comment: "\u30E9\u30F3\u30AFC\u30B3\u30E1\u30F3\u30C8\u305D\u306E3"
+  - comment: "\u30E9\u30F3\u30AFC\u30B3\u30E1\u30F3\u30C8\u305D\u306E4"
+  - comment: "\u30E9\u30F3\u30AFC\u30B3\u30E1\u30F3\u30C8\u305D\u306E5"
+  comment_d:
+  - comment: "\u2026\u2026\u3002"
+  - comment: "\u30E9\u30F3\u30AFD\u30B3\u30E1\u30F3\u30C8\u305D\u306E2"
+  - comment: "\u30E9\u30F3\u30AFD\u30B3\u30E1\u30F3\u30C8\u305D\u306E3"
+  - comment: "\u30E9\u30F3\u30AFD\u30B3\u30E1\u30F3\u30C8\u305D\u306E4"
+  - comment: "\u30E9\u30F3\u30AFD\u30B3\u30E1\u30F3\u30C8\u305D\u306E5"

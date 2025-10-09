@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a066a2013aa1a1c4087e8653b484a1b6, type: 3}
+  m_Name: list_wordsDictionary
+  m_EditorClassIdentifier: 
+  list:
+  - words: "\u6C5F\u6238"
+    ruby: "<r=\u3048>\u6C5F</r><r=\u3069>\u6238</r>"
+  - words: "\u5C0F\u7D0B"
+    ruby: "<r=\u3053>\u5C0F</r><r=\u3082\u3093>\u7D0B</r>"
+  - words: "\u5DE5\u623F"
+    ruby: "\u3053\u3046\u307C\u3046"
+  - words: "\u8077\u4EBA"
+    ruby: "\u3057\u3087\u304F\u306B\u3093"
+  - words: "\u76F8\u6027"
+    ruby: "\u3042\u3044\u3057\u3087\u3046"
+  - words: "\u578B\u7D19"
+    ruby: "\u304B\u305F\u304C\u307F"
+  - words: "\u67D3\u6599"
+    ruby: "\u305B\u3093\u308A\u3087\u3046"
+  - words: "\u751F\u5730"
+    ruby: "\u304D\u3058"
+  - words: "\u60C5\u71B1"
+    ruby: "\u3058\u3087\u3046\u306D\u3064"
+  - words: "\u5B89\u3089\u304E"
+    ruby: "<r=\u3084\u3059>\u5B89</r>\u3089\u304E"
+  - words: "\u82F1\u77E5"
+    ruby: "\u3048\u3044\u3061"
+  - words: "\u521D\u671F\u5316"
+    ruby: "\u3057\u3087\u304D\u304B"
+  - words: "\u65B0\u54C1"
+    ruby: "\u3057\u3093\u3074\u3093"
+  - words: "\u76F8\u624B"
+    ruby: "\u3042\u3044\u3066"
+  - words: "\u6575"
+    ruby: "\u3066\u304D"
+  - words: "\u9BAB"
+    ruby: "\u3055\u3081"
+  - words: "\u884C\u5100"
+    ruby: "\u304E\u3087\u3046\u304E"
+  - words: "\u901A\u3057"
+    ruby: "<r=\u3068\u304A>\u901A</r>\u3057"
+  - words: "\u4E07\u7B4B"
+    ruby: "\u307E\u3093\u3059\u3058"
+  - words: "\u6A29\u5229"
+    ruby: "\u3051\u3093\u308A"
+  - words: "\u62E1\u5F35"
+    ruby: "\u304B\u304F\u3061\u3087\u3046"
+  - words: "\u67C4"
+    ruby: "\u304C\u3089"
+  - words: "\u79F0\u53F7"
+    ruby: "\u3057\u3087\u3046\u3054\u3046"
+  - words: "\u89E3\u653E"
+    ruby: "\u304B\u3044\u307B\u3046"
+  - words: "\u5C01\u5370"
+    ruby: "\u3075\u3046\u3044\u3093"
+  - words: "\u6642\u4EE3"
+    ruby: "\u3058\u3060\u3044"
+  - words: "\u6A21\u69D8"
+    ruby: "\u3082\u3088\u3046"
+  - words: "\u4E09\u5F79"
+    ruby: "\u3055\u3093\u3084\u304F"
+  - words: "\u4E94\u5F79"
+    ruby: "\u3054\u3084\u304F"

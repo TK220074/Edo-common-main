@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afed989365b776145b945af1662290d4, type: 3}
+  m_Name: list_scenario
+  m_EditorClassIdentifier: 
+  list:
+  - command: 8
+    charaId: 0
+    value: 1
+  - command: 0
+    charaId: 0
+    value: "\u3053\u308C\u3067\u3000<r=\u304B\u3093\u305B\u3044>\u5B8C\u6210</r>\uFF01\n\u2026\u3060\u3051\u3069\u4ED6\u306E\u3084\u3064\u3068\u306F\u3000\u306A\u3093\u304B<r=\u3061\u304C>\u9055</r>\u3046\u3093\u3060\u3088\u306A\u3041"
+  - command: 5
+    charaId: 0
+    value: 0.2
+  - command: 4
+    charaId: 0
+    value: 0.3
+  - command: 0
+    charaId: 0
+    value: "\u30AA\u30EC\u306F\u3000\u6C5F\u6238\u5C0F\u7D0B\u8077\u4EBA\uFF01\uFF01\uFF01\n\u3053\u306E\u5DE5\u623F\u3067\u3000<color=\"blue\">\u6C5F\u6238\u5C0F\u7D0B</color>\u3092\u4F5C\u308A\u59CB\u3081\u3066\u30001\u30F6\u6708\uFF01\uFF01"
+  - command: 0
+    charaId: 0
+    value: "\u3060\u3051\u3069\u3000\u306A\u304B\u306A\u304B\u4E0A\u624B\u304F\u3044\u304B\u306D\u3047\u3093\u3060\u3088\u306A\u3041\u2026\u2026"
+  - command: 6
+    charaId: 0
+    value: 0.2
+  - command: 4
+    charaId: 0
+    value: 0.3
+  - command: 0
+    charaId: 0
+    value: "\u3067\u3082\u3000\u4F55\u5EA6\u3082\u3084\u308C\u3070\u3000<r=\u305B\u3044\u3053\u3046>\u6210\u529F</r>\u3067\u304D\u308B\u306F\u305A\u3060\uFF01\n\u3082\u30461\u56DE\u3000\u6C5F\u6238\u5C0F\u7D0B\u3092\u4F5C\u3063\u3066\u3084\u308B\u305C\uFF01"
+  - command: 3
+    charaId: 0
+    value: 13
+  - command: 4
+    charaId: 0
+    value: 0.4
+  - command: 0
+    charaId: 0
+    value: "\u3093\uFF1F"
+  - command: 0
+    charaId: 4
+    value: "\u2026\u3051\u3066\u2026\u2026\u305F\u3059\u3051\u3066\u2026"
+  - command: 3
+    charaId: 0
+    value: 15
+  - command: 0
+    charaId: 0
+    value: "\u3060\u308C\u3060\uFF01\uFF1F"
+  - command: 3
+    charaId: 0
+    value: 0
+  - command: 4
+    charaId: 0
+    value: 0.15
+  - command: 0
+    charaId: 4
+    value: "\u305F\u3059\u3000\u3051\u3066\u2026\u3000\u307F\u305A\u2026\u2026"
+  - command: 0
+    charaId: 0
+    value: "\u3060\u308C\u304B\u3000\u308F\u304B\u3093\u306D\u3047\u3051\u3069\u3000\u6C34\u3060\u306A\uFF01\uFF01\uFF01"
+  - command: 13
+    charaId: 0
+    value: 0.45
+  - command: 3
+    charaId: 0
+    value: 14
+  - command: 4
+    charaId: 0
+    value: 1.3
+  - command: 0
+    charaId: 4
+    value: "\u3075\u30FC\u3002\u3044\u2026\u3000\u751F\u304D\u8FD4\u3063\u305F\u30B5\u30E1\u30FC\uFF01"
+  - command: 0
+    charaId: 0
+    value: "\u3088\u304B\u3063\u305F\u306A\uFF01"
+  - command: 0
+    charaId: 4
+    value: "\u30B5\u30E1\uFF01"
+  - command: 0
+    charaId: 4
+    value: "\u52A9\u304B\u3063\u305F\u30B5\u30E1\uFF01"
+  - command: 0
+    charaId: 0
+    value: "\u304A\u3046\uFF01"
+  - command: 0
+    charaId: 4
+    value: "\u3042\u3000\u540D\u4E57\u308A\u308F\u3059\u308C\u3066\u305F\u30B5\u30E1\u2026\uFF01"
+  - command: 4
+    charaId: 0
+    value: 0.45
+  - command: 0
+    charaId: 4
+    value: "\u30B5\u30E1\u306E\u540D\u524D\u306F<color=\"red\">\u30B5\u30E1\u4E38</color>\uFF01"
+  - command: 0
+    charaId: 1
+    value: "\u6C5F\u6238\u5C0F\u7D0B\u306E\u300C<r=\u3088\u3046\u305B\u3044>\u5996\u7CBE</r>\u300D\u30B5\u30E1\uFF01"
+  - command: 0
+    charaId: 0
+    value: "\u30B5\u30E1\u4E38\uFF01"
+  - command: 0
+    charaId: 0
+    value: "\u3088\u308D\u3057\u304F\u306A\uFF01"
+  - command: 0
+    charaId: 1
+    value: "\u30B5\u30E1\uFF01"
+  - command: 3
+    charaId: 0
+    value: 15
+  - command: 4
+    charaId: 0
+    value: 1.2
+  - command: 0
+    charaId: 1
+    value: "\u2026\u30AD\u30DF\u304C\u624B\u306B\u3082\u3063\u3066\u3044\u308B\u3000\u305D\u306E<r=\u305F\u3093\u3082\u306E>\u53CD\u7269</r>"
+  - command: 0
+    charaId: 1
+    value: "\u3082\u3057\u304B\u3057\u3066\u305D\u308C\u3063\u3066\u3000\u6C5F\u6238\u5C0F\u7D0B\u30B5\u30E1\u304B\uFF01\uFF1F"
+  - command: 0
+    charaId: 0
+    value: "\u305D\u3046\u3060\u3051\u3069\u2026\u3000\u306A\u304B\u306A\u304B\u4E0A\u624B\u304F\u3067\u304D\u3066\u308B\u3060\u308D\uFF01\uFF01"
+  - command: 0
+    charaId: 1
+    value: "\u2026\u2026\u2026"
+  - command: 4
+    charaId: 0
+    value: 0.7
+  - command: 0
+    charaId: 1
+    value: "<r=\u3057\u3087\u3046\u3058\u304D>\u6B63\u76F4</r>\u3000\u304A<r=\u305B\u3058>\u4E16\u8F9E</r>\u306B\u3082\u3000\u4E0A\u624B\u3068\u306F\u8A00\u3048\u306A\u3044\u30B5\u30E1\u2026"
+  - command: 3
+    charaId: 0
+    value: 17
+  - command: 13
+    charaId: 0
+    value: 0.3
+  - command: 0
+    charaId: 0
+    value: "\u3048\u30FC\u30FC\u30FC\uFF01\uFF01"
+  - command: 4
+    charaId: 0
+    value: 0.3
+  - command: 0
+    charaId: 0
+    value: "\u30AA\u30EC\u3000\u305A\u3063\u30681\u4EBA\u3067\u4F5C\u3063\u3066\u305F\u304B\u3089\n\u4E0A\u624B\u3044\u3068\u304B\u4E0B\u624B\u3068\u304B\u3000\u308F\u304B\u3093\u306D\u3047\u3088\uFF5E\u2026"
+  - command: 0
+    charaId: 1
+    value: "\u306A\u3089\u3000\u30B5\u30E1\u304C\u6559\u3048\u3066\u3042\u3052\u308B\u30B5\u30E1\uFF01\uFF01"
+  - command: 0
+    charaId: 1
+    value: "\u3082\u30461\u56DE\u3000\u4ECA\u5EA6\u306F<r=\u3044\u3063\u3057\u3087>\u4E00\u7DD2</r>\u306B\u4F5C\u308B\u30B5\u30E1\uFF01"
+  - command: 0
+    charaId: 0
+    value: "\u304A\u3046\uFF01\uFF01\uFF01"
+  - command: 7
+    charaId: 0
+    value: 8

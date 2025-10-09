@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0d583290f4b0a24faddd72c13de252d, type: 3}
+  m_Name: videoList_imagination
+  m_EditorClassIdentifier: 
+  list:
+  - {fileID: 0}
+  - {fileID: 32900000, guid: 98734b1a1402bc44a98eebd1a351d984, type: 3}
+  - {fileID: 32900000, guid: c0786cbc550cd044886cc74a57b645c5, type: 3}

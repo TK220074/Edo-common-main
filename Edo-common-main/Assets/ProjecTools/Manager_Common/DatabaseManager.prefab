@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1796978662343965385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1956161994528938014}
+  - component: {fileID: 3517418260495154408}
+  m_Layer: 0
+  m_Name: DatabaseManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1956161994528938014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796978662343965385}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3517418260495154408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796978662343965385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75bfe5da2b62bca48b6cc98a951b386b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _list_pattern: {fileID: 11400000, guid: 5adb516b1b1f18d4bbf265728f17d78d, type: 2}
+  _imgList_pattern: {fileID: 11400000, guid: 61158a1e02585b44e8eab1fd05b33a44, type: 2}
+  _list_items: {fileID: 11400000, guid: dbe3f573e2ff1eb4c8cf0cfb7a558772, type: 2}
+  _imgList_items: {fileID: 11400000, guid: 3cff30ca292500b4dac1b3bc6a3550d1, type: 2}
+  constList_float: {fileID: 11400000, guid: e7e1798afc5d5fa43bf8634ea679b09b, type: 2}
+  constList_string: {fileID: 11400000, guid: b64ce61c26081ae40bdb1dab3f4c29fe, type: 2}
+  _list_WordsDictionary: {fileID: 11400000, guid: 736f399c57215c74fb77d57c708c5834, type: 2}
+  _sceneInfo: {fileID: 11400000, guid: 88d711d73fbf0264e87feaae85c4ee51, type: 2}
+  _imgList_bg: {fileID: 11400000, guid: 196fbc758449dd242be8d60082568002, type: 2}
+  _list_playerLevel: {fileID: 11400000, guid: 79ab2aee0e8a5ba4fbf38d385880310f, type: 2}
+  _list_playerTitle: {fileID: 11400000, guid: 9b2a725b809d0eb4bbbcd054d2fa7489, type: 2}
+  _window_question: {fileID: 7406939209333216774, guid: 18504b6ec2aa19b4381e559cc1c57fd2, type: 3}
+  _window_nameInput: {fileID: 2511099691354905368, guid: 6372e1c1184860c40865330930b8ceca, type: 3}

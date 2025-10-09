@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprite Atlas_A_3_goOut_shopIcon
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 455a65d9fc200994a83e2a8606a4310f, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - f9c0e803376ae8549b29ed71926e3684: 21300000
+    - 6ff73dd4891646e4f9a543a2413211b6: 21300000
+    - 18ebaee4910766f42b0043624ed99d36: 21300000
+    - f04185b6fa7d4cb46a0379635d8a501b: 21300000
+    - 7af3cc5a3a9d3fa4bb35f759f1c30a10: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f9c0e803376ae8549b29ed71926e3684, type: 3}
+  - {fileID: 21300000, guid: 6ff73dd4891646e4f9a543a2413211b6, type: 3}
+  - {fileID: 21300000, guid: 18ebaee4910766f42b0043624ed99d36, type: 3}
+  - {fileID: 21300000, guid: f04185b6fa7d4cb46a0379635d8a501b, type: 3}
+  - {fileID: 21300000, guid: 7af3cc5a3a9d3fa4bb35f759f1c30a10, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - ui_17_icon_shop_4_furniture
+  - ui_17_icon_shop_3_tool
+  - ui_17_icon_shop_1_patternPaper
+  - ui_17_icon_shop_2_dye
+  - ui_17_icon_shop_0_cloth
+  m_RenderDataMap: {}
+  m_Tag: Sprite Atlas_A_3_goOut_shopIcon
+  m_IsVariant: 0

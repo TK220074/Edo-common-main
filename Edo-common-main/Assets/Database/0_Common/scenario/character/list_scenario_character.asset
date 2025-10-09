@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b97ff3c5b6a49a04c9a86645e5f7bb3a, type: 3}
+  m_Name: list_scenario_character
+  m_EditorClassIdentifier: 
+  list:
+  - name: "\uFF08\u203B\u30D7\u30EC\u30A4\u30E4\u540D\uFF09"
+    charaOld: 1
+  - name: "\u30B5\u30E1\u4E38"
+    charaOld: 0
+  - name: "\u5473\u65B9\u30A8\u30C9\u30C3\u30B3"
+    charaOld: 0
+  - name: "\u6575\u30A8\u30C9\u30C3\u30B3"
+    charaOld: 2
+  - name: "\uFF1F\uFF1F\uFF1F"
+    charaOld: 0
+  - name: "\u30A8\u30C9\u30C3\u30B3"
+    charaOld: 0
+  - name: "\u30A8\u30C9\u30C3\u30B3\uFF1F"
+    charaOld: 0
+  - name: 
+    charaOld: 1

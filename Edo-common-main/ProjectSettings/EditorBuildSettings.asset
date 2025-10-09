@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/0_Other/0_Title.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/0_Other/Sys_Credit.unity
+    guid: 15e49137ddf5e47a2944494236d1050e
+  - enabled: 1
+    path: Assets/Scenes/A_Home/A_0_HomeTop.unity
+    guid: 0abfabd542b21c34380d6f3b85942340
+  - enabled: 1
+    path: Assets/Scenes/A_Home/A_3_GoOut.unity
+    guid: c635fa87c0bc9e943956e699892ab930
+  - enabled: 1
+    path: Assets/Scenes/A_Home/A_6_Map.unity
+    guid: 902ae107ca212744198e39a15d5edef7
+  - enabled: 1
+    path: Assets/Scenes/A_Home/A_9_Request.unity
+    guid: a6588fb5a979cb142bf830e7918afd5a
+  - enabled: 1
+    path: Assets/Scenes/A_Home/A_12_Profile.unity
+    guid: 912261dafcb58b841a32f74ece62e734
+  - enabled: 1
+    path: Assets/Scenes/A_Home/A_3_GoOut_shops/A_3_2_shops.unity
+    guid: 1d83d60e2b0fd25438033180420d296c
+  - enabled: 1
+    path: Assets/Scenes/B_KomonCreation/KomonCreat.unity
+    guid: f132bda5a2abd174687c90ad2a8ed624
+  - enabled: 1
+    path: Assets/Scenes/0_Other/sys_talk.unity
+    guid: a2384f724c95c334e9c769cb98459cd3
+  - enabled: 1
+    path: Assets/Scenes/C_Battle/Battle.unity
+    guid: 2a3ea15c82877414cbf2557f4905ee7e
+  - enabled: 0
+    path: Assets/Scenes/0_Other/(Dev)Check_sys_talk.unity
+    guid: ba9dff61a4031f04c8779ce67805a06f
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

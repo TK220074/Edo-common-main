@@ -1,0 +1,748 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b5b43d5a93267e4d974ef38f388a768, type: 3}
+  m_Name: enemyKomonList
+  m_EditorClassIdentifier: 
+  list:
+  - name:
+    - "\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u30D0\u30C8\u30EB\u6575\u5C0F\u7D0B"
+    colorNum:
+    - {r: 0, g: 0, b: 1, a: 1}
+    patternId: 00
+    coatPos:
+    - {x: 0.52, y: 0.54}
+    date_created: []
+    length: 1
+    rank: 03000000
+    komonPoint: 0
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 2
+    rank: 
+    komonPoint: 0.63
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 3
+    rank: 
+    komonPoint: 0
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
+  - name:
+    - "\u306F\u3058\u3081\u3066\u306E\u5C0F\u7D0B\uFF08\u4EEE\uFF09"
+    colorNum:
+    - {r: 0.652, g: 0.34109113, b: 0.44933712, a: 1}
+    patternId: 00
+    coatPos: []
+    date_created: []
+    length: 1
+    rank: 
+    komonPoint: 1
+    coatLimit: 0
+    isImportant: 0
