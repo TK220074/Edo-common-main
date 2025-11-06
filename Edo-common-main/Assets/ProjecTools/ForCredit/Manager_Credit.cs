@@ -52,7 +52,7 @@ public class Manager_Credit : MonoBehaviour
         StartCoroutine(Calculate()); // 開始・終了Posを計算する。
 
         _audio.BGM_Stop();
-        _audio.SE_Play(_audio.list_BGM.list[(byte)commonM.dataM.sceneInfo.list[(int)_sc.get_nowSceneId()].bgmId]);
+        _audio.SE_Play(_audio.list_BGM.list[(byte)commonM.dataM.sceneInfo.list[(int)_sc.get_nowSceneId()].bgmId].clip);
         //_sc.ScenePreLoad(_nextSceneID); // エンドロール後のシーンを先読み
     }
 

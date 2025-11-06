@@ -109,7 +109,7 @@ public class manager_B_colorPaste : Singleton<manager_B_colorPaste>
     public void button_inputPaste_down()
     {
         commonM.audioM.SE_Play(AudioManager.WhichSE.Done);
-        StartCoroutine(commonM.audioM.BGM_Play(commonM.audioM.list_SE.list[26], false, 0, 2));
+        StartCoroutine(commonM.audioM.BGM_Play(commonM.audioM.list_SE.list[26].clip, false, 0, 2));
         buttonDownNow = true;
     }
     public void button_inputPaste_up()

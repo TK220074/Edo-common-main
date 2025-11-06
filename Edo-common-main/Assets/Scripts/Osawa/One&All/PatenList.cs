@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-
 [System.Serializable]
 public class Paten_L
 {
@@ -21,10 +19,11 @@ public class PatenList : ScriptableObject
         foreach (var item in Paten_l)
         {
             if (item.id == id)
-            {
                 return item;
-            }
         }
+
+        // ここで警告ログを出す（存在しないID）
+        Debug.LogWarning($"[PatenList] ID={id} は登録されていません。");
         return null;
     }
 }

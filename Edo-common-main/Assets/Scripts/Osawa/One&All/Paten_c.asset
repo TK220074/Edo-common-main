@@ -14,18 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Paten_l:
   - id: 0
-    lists: {fileID: 2800000, guid: 17f0c3c6bcb45f649a4111b097e25c2a, type: 3}
-  - id: 1
-    lists: {fileID: 2800000, guid: dd26e80605f315b45999d14607e93b98, type: 3}
-  - id: 2
-    lists: {fileID: 2800000, guid: f6f265ebc0e7b0e4d823c39f3940e7ae, type: 3}
-  - id: 3
-    lists: {fileID: 2800000, guid: 12f86466bbe6efa4eb93ecbcb7fc7544, type: 3}
-  - id: 4
-    lists: {fileID: 2800000, guid: 732f1660c43288248b8b89a237c402ce, type: 3}
-  - id: 5
-    lists: {fileID: 2800000, guid: 26d8c6e089434a54ba6306ad3f066279, type: 3}
-  - id: 6
-    lists: {fileID: 2800000, guid: b9ffc99087729ff4e91b3ca92a38298c, type: 3}
-  - id: 7
-    lists: {fileID: 2800000, guid: 778bcf139a827394b9e41dfbe7a05dcf, type: 3}
+    lists: {fileID: 0}
+  - id: 0
+    lists: {fileID: 0}
+  - id: 0
+    lists: {fileID: 0}
+  - id: 0
+    lists: {fileID: 0}
+  - id: 0
+    lists: {fileID: 0}
+  - id: 0
+    lists: {fileID: 0}
+  - id: 0
+    lists: {fileID: 0}
+  - id: 0
+    lists: {fileID: 0}
+  - id: 0
+    lists: {fileID: 0}
+  - id: 9
+    lists: {fileID: 2800000, guid: 4b7fb432796456248bf34417423a4d89, type: 3}
