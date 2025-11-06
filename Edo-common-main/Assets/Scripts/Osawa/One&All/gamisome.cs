@@ -21,7 +21,7 @@ public class gamisome : MonoBehaviour
     private Texture2D modifiedTexture;
 
     private Renderer rend;
-    public int b_size = 25;//ブラシサイズ
+    public int b_size = 50;//ブラシサイズ
     public int t_sizex = 1024;
     public int t_sizey = 512;
     private int profound = 0;
@@ -200,7 +200,7 @@ public class gamisome : MonoBehaviour
                     if (Input.GetMouseButtonDown(0))
                     {
                         audioM.SE_Play(28); // ヘラが当たる音
-                        StartCoroutine(audioM.BGM_Play(audioM.list_SE.list[27], false, 0, 2)); // 塗り延ばす音
+                        StartCoroutine(audioM.BGM_Play(audioM.list_SE.list[27].clip, false, 0, 2)); // 塗り延ばす音
                     }
 
                     PaintTexture(hit);

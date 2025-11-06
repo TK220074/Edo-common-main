@@ -90,7 +90,7 @@ public class AudioManager : MonoBehaviour
         //devlog.log("UI用のSE：「" + list_SE_UI.SoundList[(int)whichSE].name + "」 を再生します。");
         ChangePitch(WhichAudio.SE, 1.0f);
         ChangeVol_Temp(WhichAudio.SE, 1.0f);
-        _source_SE.PlayOneShot(list_SE_UI.list[(int)whichSE]);
+        _source_SE.PlayOneShot(list_SE_UI.list[(int)whichSE].clip);
     }
     /// <summary>
     /// 指定したIDのSEを再生させる
@@ -100,7 +100,7 @@ public class AudioManager : MonoBehaviour
     {
         if(seId < _list_SE.list.Count)
         {
-            SE_Play(_list_SE.list[seId]);
+            SE_Play(_list_SE.list[seId].clip);
         }
         else
         {
@@ -185,7 +185,7 @@ public class AudioManager : MonoBehaviour
             // 普通のBGM
             if(bgmId < list_BGM.list.Count)
             {
-                StartCoroutine(BGM_Play(list_BGM.list[bgmId], notLoop, StartTime, channel));
+                StartCoroutine(BGM_Play(list_BGM.list[bgmId].clip, notLoop, StartTime, channel));
             }
             else
             {
@@ -198,7 +198,7 @@ public class AudioManager : MonoBehaviour
             if (bgmId < list_BGM_Env.list.Count)
             {
                 ChangeVol_Temp(WhichAudio.BGM, ENVVOL, 1); // 環境音のBGM音量は小さめ
-                StartCoroutine(BGM_Play(list_BGM_Env.list[bgmId], notLoop, 0, 1));
+                StartCoroutine(BGM_Play(list_BGM_Env.list[bgmId].clip, notLoop, 0, 1));
             }
             else
             {

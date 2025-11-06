@@ -156,14 +156,26 @@ public class OneforAll_manager : MonoBehaviour
         devlog.log(idCheck + "が選択");
 
         var item = paten_C.GetItemById(idCheck);
-        Gamisome.baseTexture = item.lists;;
+        if (item == null)
+        {
+            Debug.LogError($"[Createcheck] paten_C に id={idCheck} のパターンが存在しません。");
+            return;
+        }
+
+        if (item.lists == null)
+        {
+            Debug.LogError($"[Createcheck] id={idCheck} の Paten_L.lists が未設定です。");
+            return;
+        }
+
+        Gamisome.baseTexture = item.lists;
         Gamisome.sourceTexture = item.lists;
         Colorselect_k.sourceTexture = item.lists;
         Gamisome.color_change = color_k;
         Gamisome.Start_N();
         Colorselect_k.ReplaceColors();
-        //Destroy(transform.parent.parent.gameObject);
     }
+
     public void Createstanby()
     {
         Button button = FindButtonByName(obj_album_pattern.transform, name_b);

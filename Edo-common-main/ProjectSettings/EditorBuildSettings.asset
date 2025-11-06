@@ -33,7 +33,7 @@ EditorBuildSettings:
     path: Assets/Scenes/B_KomonCreation/KomonCreat.unity
     guid: f132bda5a2abd174687c90ad2a8ed624
   - enabled: 1
-    path: Assets/Scenes/0_Other/sys_talk.unity
+    path: Assets/Scenes/sys_talk.unity
     guid: a2384f724c95c334e9c769cb98459cd3
   - enabled: 1
     path: Assets/Scenes/C_Battle/Battle.unity
@@ -41,5 +41,6 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/0_Other/(Dev)Check_sys_talk.unity
     guid: ba9dff61a4031f04c8779ce67805a06f
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 77eef22f73632f8439182d68003f78a1, type: 2}
   m_UseUCBPForAssetBundles: 0
