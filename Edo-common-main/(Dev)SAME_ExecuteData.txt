@@ -1,0 +1,34 @@
+【Device Info】
+OS : Windows 11  (10.0.26100) 64bit
+DeviceModel : GF63 Thin 11UC (Micro-Star International Co., Ltd.)
+DeviceType : Desktop
+CPU : 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+GPU : NVIDIA GeForce RTX 3050 Laptop GPU
+DeviceMemory : 15.70801 GB
+BatteryLevel : 95 %
+BatteryStatus : Charging
+
+【Scene WhenLogCopy】
+A_6_Map
+
+【Execution Info】
+Ver : Unity [ 6000.0.58f2 ] / Game [ 0.1 ]
+FPS : 60.04
+ExecutionTime : 445.27
+Memory : 369.52 / 719.93 MB
+BGM - SavedVolume : 10 (Now : 0.11 dB)
+SE - SavedVolume : 10 (Now : 0.00 dB)
+NowScene : A_6_Map
+
+【Log】
+427.9451s : PlayOneShot was called with a null AudioClip.
+427.9451s : 小紋づくり できません！
+429.6779s : ここでしゃべる音？
+431.6949s : PlayOneShot was called with a null AudioClip.
+432.4609s : PlayOneShot was called with a null AudioClip.
+432.4609s : 【SceneChange実行】
+432.7779s : シーンID :「4」 の読み込みを開始します。
+433.0835s : Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
+433.1669s : シーンID :「4」 へ移動します。
+437.7334s : PlayOneShot was called with a null AudioClip.
+
