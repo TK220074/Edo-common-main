@@ -48,7 +48,7 @@ MonoBehaviour:
   - words: "\u884C\u5100"
     ruby: "\u304E\u3087\u3046\u304E"
   - words: "\u901A\u3057"
-    ruby: "<r=\u3068\u304A>\u901A</r>\u3057"
+    ruby: "\u3068\u304A\u3057"
   - words: "\u4E07\u7B4B"
     ruby: "\u307E\u3093\u3059\u3058"
   - words: "\u6A29\u5229"
