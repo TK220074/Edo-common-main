@@ -32,3 +32,43 @@ NowScene : A_6_Map
 433.1669s : シーンID :「4」 へ移動します。
 437.7334s : PlayOneShot was called with a null AudioClip.
 
+【Device Info】
+OS : Windows 11  (10.0.26100) 64bit
+DeviceModel : GF63 Thin 11UC (Micro-Star International Co., Ltd.)
+DeviceType : Desktop
+CPU : 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+GPU : NVIDIA GeForce RTX 3050 Laptop GPU
+DeviceMemory : 15.70801 GB
+BatteryLevel : 94 %
+BatteryStatus : Charging
+
+【Scene WhenLogCopy】
+sys_talk
+
+【Execution Info】
+Ver : Unity [ 6000.0.58f2 ] / Game [ 0.1 ]
+FPS : 59.98
+ExecutionTime : 56.63
+Memory : 352.31 / 668.93 MB
+BGM - SavedVolume : 10 (Now : 0.11 dB)
+SE - SavedVolume : 10 (Now : 0.00 dB)
+NowScene : sys_talk
+
+【Log】
+54.36033s : PlayOneShot was called with a null AudioClip.
+54.46191s : PlayOneShot was called with a null AudioClip.
+54.56174s : PlayOneShot was called with a null AudioClip.
+54.66179s : PlayOneShot was called with a null AudioClip.
+54.76186s : PlayOneShot was called with a null AudioClip.
+54.85959s : PlayOneShot was called with a null AudioClip.
+54.96079s : PlayOneShot was called with a null AudioClip.
+55.0615s : PlayOneShot was called with a null AudioClip.
+55.16045s : PlayOneShot was called with a null AudioClip.
+55.26155s : PlayOneShot was called with a null AudioClip.
+55.36122s : PlayOneShot was called with a null AudioClip.
+55.46125s : PlayOneShot was called with a null AudioClip.
+55.56184s : PlayOneShot was called with a null AudioClip.
+55.66098s : PlayOneShot was called with a null AudioClip.
+55.76167s : PlayOneShot was called with a null AudioClip.
+55.8606s : PlayOneShot was called with a null AudioClip.
+
